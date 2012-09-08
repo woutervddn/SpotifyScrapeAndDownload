@@ -1,6 +1,6 @@
 #example call:
-#sh ./ytlikely.sh 'daft punk - technologic'
-#sh ./ytlikely.sh 'search - term'
+#sh ./ytlikely.sh 'daft+punk+technologic'
+#sh ./ytlikely.sh 'search+term'
 
 #Author: Wouter Vandenneucker
 #Author twitter: http://twitter.com/woutervddn
