@@ -22,7 +22,7 @@ perl ./spotify-scrape.pl $1 > $2.sptlst
 cat $2.sptlst | sed -e 's/.*\. //' > $2.spt2mp3
 IFS="
 "
-for line in `cat file.spt2mp3`;do
+for line in `cat $2.spt2mp3`;do
 	#echo "downloading: $line"
 	link="$(sh ./ytlikely.sh $line)"
 	#echo "from url: $link"
