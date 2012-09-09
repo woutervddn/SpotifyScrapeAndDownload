@@ -2,8 +2,8 @@
 #if not installed: sudo cpan install Web:Scraper
 
 #example call:
-#perl ./spotify.pl 'spotify:track:2qpmEFEoc6bVpYhc4Lp5Uo'
-#perl ./spotify.pl 'spotify-uri'
+#perl ./spotify-scrape.pl 'spotify:track:2qpmEFEoc6bVpYhc4Lp5Uo'
+#perl ./spotify-scrape.pl 'spotify-uri'
 
 #Author: Jonathan Spruytte
 #Author twitter: http://twitter.com/spruyttej
